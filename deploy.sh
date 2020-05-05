@@ -15,5 +15,5 @@ git -C public commit -m "$MSG"
 # Push source and build repos.
 echo -e "\033[0;32mPushing public files...\033[0m"
 git -C public push
-echo -e "\033[0;32mPush source files...\033[0m"
+echo -e "\033[0;32mPushing source files...\033[0m"
 git push
