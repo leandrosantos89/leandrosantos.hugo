@@ -11,6 +11,7 @@ if [ $# -eq 1 ]
   then MSG="$1"
 fi
 git commit -m "$MSG"
+git -C public commit -m "$MSG"
 # Push source and build repos.
 echo -e "\033[0;32mPushing public files...\033[0m"
 git -C public push
