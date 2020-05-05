@@ -34,6 +34,7 @@ MSG="rebuilding site $(date +%Y/%m/%d-%H:%M)"
 if [ $# -eq 1 ]
   then MSG="$1"
 fi
+git -C public commit -m "$MSG"
 git commit -m "$MSG"
 # Push source and build repos.
 echo -e "\033[0;32mPushing public files...\033[0m"

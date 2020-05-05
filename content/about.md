@@ -6,7 +6,7 @@ aliases = ["about-us","about","contact"]
   name = "Leandro Santos"
 +++
 
-sysadmin|devops @ ifsuldeminas
+sysadmin|devops
 
 Cientista da Computação pela UFLA
 
