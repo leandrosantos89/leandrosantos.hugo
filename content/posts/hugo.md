@@ -23,6 +23,7 @@ tags = [
 __deploy.sh__
 ```bash
 #!/bin/env bash
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 `docker run --rm -v $PWD:/blog hugo hugo` # if using a theme, replace with `hugo -t <YOURTHEME>`
